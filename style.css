@@ -1,0 +1,37 @@
+div{
+  background-color:red;
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+  position:relative;
+  top: 100px;
+  left: 500px;
+  animation-name:animacion-uno;
+  animation-duration: 5s;
+  animation-iteration-count:infinite;
+}
+@keyframes animacion-uno{
+  from{
+    background-color:pink;
+  }
+  to{
+    background-color:purple;}
+  
+  0%{
+    top: 0;
+    left 0;
+  }
+
+  30%{
+    top:100px;
+  }
+  
+  68%
+  72%{
+    left:100px;
+  }
+  
+  100%{
+    top:100px;
+    left:100%;
+  }
